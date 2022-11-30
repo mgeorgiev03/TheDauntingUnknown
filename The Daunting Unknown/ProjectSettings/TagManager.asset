@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - FireTrap
+  - Dart
+  - exit
+  - Enemy
+  - BloodGun
+  - Knife
+  - Shotgun
+  - Gun
+  - LightStaff
+  - Bullet
+  - GameManager
+  - spawnpoint
+  - Health
+  - Wall
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - Bullet
+  - Enemy
+  - FlyingEnemy
+  - RollingEnemy
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 203776861
+    locked: 0
+  - name: Middleground
+    uniqueID: 2333070169
+    locked: 0
+  - name: Ground
+    uniqueID: 3644054227
+    locked: 0
+  - name: Foreground
+    uniqueID: 75032429
+    locked: 0

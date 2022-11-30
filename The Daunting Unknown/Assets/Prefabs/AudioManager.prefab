@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2500917513135909001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2500917513135908999}
+  - component: {fileID: 2500917513135908998}
+  - component: {fileID: 7306651755771969970}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2500917513135908999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2500917513135909001}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.919905, y: 2.6379864, z: -140.3881}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2500917513135908998
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2500917513135909001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77a160ad68b31284ebb4c0501169e658, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneMusicVolume: 0.3
+  sceneMusic:
+    name: Scene
+    clip: {fileID: 8300000, guid: 5a4964dbe9af59c4cbcf671314002915, type: 3}
+    volume: 0.3
+    pitch: 1
+    source: {fileID: 0}
+  sounds:
+  - name: Footsteps
+    clip: {fileID: 8300000, guid: 51af031405c7c9f419d9d281600b4047, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Machete
+    clip: {fileID: 8300000, guid: ded3871f0df7f04419762076bfee3719, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Gun
+    clip: {fileID: 8300000, guid: a2c46be585d0b2e478d6c3b6873d101b, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Shotgun
+    clip: {fileID: 8300000, guid: 12057d9c349d86045b8173b59a4975e6, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Staff
+    clip: {fileID: 8300000, guid: c502eef8066045343b5eac7ed74a2ef6, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+  - name: BloodGun
+    clip: {fileID: 8300000, guid: 9548f5adb56930b48b84f3e3693532c5, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: BugRoach_Attack
+    clip: {fileID: 8300000, guid: e1e578f48b5e5fc489f699771ee387bd, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: BugRoach_TakeDamage
+    clip: {fileID: 8300000, guid: 7f3127c308a4ce946ab4475bb0d51e30, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Skeleton_TakeDamage
+    clip: {fileID: 8300000, guid: 0cb587b6d980d03498ea3fb7b7924706, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Fly_Attack
+    clip: {fileID: 8300000, guid: a43d06f4200139a49bc24ea3364399f7, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: Fly_TakeDamage
+    clip: {fileID: 8300000, guid: a43d06f4200139a49bc24ea3364399f7, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: BladeTrap
+    clip: {fileID: 8300000, guid: 094f608796eddf342b71c219cf3c663c, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: FireTrap
+    clip: {fileID: 8300000, guid: b1e6159ebb46cd042abc9a0032dcb28c, type: 3}
+    volume: 0.1
+    pitch: 1
+    source: {fileID: 0}
+  - name: Arrow
+    clip: {fileID: 8300000, guid: 133dd4a1c5e1a6e468287c6ea38556e1, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: WoodCrack
+    clip: {fileID: 8300000, guid: a6ee4e87803d8f34c82796253a75498d, type: 3}
+    volume: 0.8
+    pitch: 1
+    source: {fileID: 0}
+  - name: PressurePlate
+    clip: {fileID: 8300000, guid: b0e6bea2ba2c759448f844e845a50d77, type: 3}
+    volume: 0.5
+    pitch: 0.9
+    source: {fileID: 0}
+--- !u!95 &7306651755771969970
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2500917513135909001}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 5e1ac3e3bf5e20344a69ba6bc0d066d7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
